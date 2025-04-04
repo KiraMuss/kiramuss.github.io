@@ -36,7 +36,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 header::before {
@@ -86,6 +86,7 @@ header .profile-photo {
 
 .profile-photo {
   position: absolute;
+  object-fit: cover;
   bottom: -150px;
   border-radius: 50%;
   border: 5px solid white;
